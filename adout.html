@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ! -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="属性声明了搜索引擎抓取的内容">
+    <meta name="keywords" content="举例，搜索引擎继续抓取">
+    <title>AcWing - Web应用课</title>
+    <link rel="icon" href="/img/mini.jpg">
+    <!-- 简单的所见即所得，可以按下f12鼠标看看某个元素属性是如何 -->
+</head>
+
+<body>
+    <!-- 这是标题 -->
+    <h1>Hello World</h1>
+    <div>Hello</div>
+    <div>World，块元素（带回车）</div>
+    <span>行内元素</span>
+    <span>行内元素，img和audio，video都是不换行的（行内元素，不带回车）</span>
+    <pre>等宽元素</pre>
+    <h1>Hello World</h1>
+    <img width="120px"
+         src="https://www.apple.com.cn/apple-events/images/overview/meta/wechat/overview__bcphzsdb4fpu_og.png"
+         alt="Apple 特别活动
+北京时间 3 月 9 日凌晨 2 点，
+欢迎到 apple.com 在线观看。">
+    <img width="120px"
+         src="https://www.apple.com.cn/apple-events/images/overview/meta/wechat/overview__bcphzsdb4fpu_og.png"
+         alt="换行测试">
+    <img height="120"
+         src="https://www.apple.com.cn/apple-events/images/overview/meta/wechat/overview__bcphzsdb4fpu_og.png"
+         alt="换行测试">
+    <h2>Hello World</h2>
+    <img width="100%" src="/img/hero__d6adldydsqye_xlarge.jpg" alt="长条jpg测试">
+    <h3>Hello World</h3>
+    <audio
+            controls
+            src="/audio/欧瑞SoulCore,奉天组%20-%20你站在日落的海平面.flac">无法播放时显示
+    </audio>
+    <video controls loop="loop" autoplay="autoplay" width="500" src="/video/large.mp4">
+        <!-- comtrols即为控制器 -->
+    </video>
+    <video controls>
+        <!-- 如果第一个不能播放，那就播放第二个 -->
+        <source src="" type="video/mp4">
+        <source src="" type="video/mp4">
+    </video>
+    <audio controls loop autoplay>
+        <!-- 如果第一个不能播放，那就播放第二个 -->
+        <source src="/audio/Villanelle%20-%20Jo%20Blankenburg.mp3" type="audio/mpeg">
+        <source src="/audio/Ed%20Sheeran%20-%20Bloodstream.mp3" type="audio/mpeg">
+    </audio>
+    "
+    <h4>Hello World</h4>
+    <h3>超链接</h3>
+    <a href="https://www.acwing.com">AcWing</a>
+    <h5>Hello World</h5>
+    <h6>Hello World会自动过滤多余空格</h6>
+    <P>
+        <b>约瑟夫·路易·拉格朗日</b>
+        （法语：<i>Joseph-Louis Lagrange,斜体演示</i> <br><!-- 回车 -->
+        1736年1月25日－1813年4月10日），出生时名为<strong>朱塞佩·路易吉·拉格朗吉亚,同为加粗</strong> （意大利语：Giuseppe Luigi
+        Lagrangia）或
+        <ins>朱塞佩·洛德维科·德·拉·格朗日·图尼尔,下划线</ins>
+        （意大利语：Giuseppe Ludovico De la Grange
+        Tournier），
+        <del>是一位,删除线</del>
+        <mark>法国籍意大利裔数学家和天文学家。,标注，背景换为黄色</mark>
+        拉格朗日曾为普鲁士的腓特烈大帝在柏林工作了20年，被腓特烈大帝称做“欧洲最伟大的数学家”，后受法国国王路易十六的邀请定居巴黎直至去世。拉格朗日一生才华横溢，在数学、物理和天文等领域做出了很多重大的贡献。他的成就包括著名的拉格朗日中值定理，创立了拉格朗日力学等等。
+        拉格朗日是18世纪一位十分重要的科学家，在数学、力学和天文学三个学科中都有历史性的重大贡献，但他主要是数学家。他最突出的贡献是在把数学分析的基础脱离几何与力学方面起了决定性的作用，使数学的独立性更为清楚，而不仅是其他学科的工具。同时在使天文学力学化、力学分析化上也起了历史性作用，促使力学和天文学（天体力学）更深入发展。在他的时代，分析学等分支刚刚起步，欠缺严密性和标准形式，但这不足以妨碍他取得大量的成果。
+    </P>
+    <hr>
+    <!-- 横线 -->
+    <P>
+        大段文字，div的基础上
+        加上一些额外的限制
+    </P>
+    <pre style="font-size: 20px">独立标签,且是等宽字体,pre仅有内置样式，如果需求复杂还需要设置css    保留空格；（可以贴代码段,转译后大于号是gt，小于号是lt）
+#include &lt; iostream &gt;
+using namespace std;
+int main()
+{
+cout &lt;&lt; "测试" &lt;&lt; endl;
+return 0;
+}
+</pre>
+</body>
+
+</html>
