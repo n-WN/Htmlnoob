@@ -11,32 +11,60 @@
     <h2>超链接</h2>
     <a href="https://www.acwing.com">AcWing</a>
     <!-- a里可以加任意标签 -->
-    <a href="/adout.html">index</a>
+    <a href="/about.html">
+        about
+    </a>
     <a href="/德国车.html">
         <img width="200" src="/img/mini.jpg" alt="德国车.html 超链接">
     </a>
     <h2>Form</h2>
 
-    <form>
+    <form action="推送失败.md">
+        <!-- 表单把数据提交给服务器，服务器处理后再返回表单 -->
         <!-- 表单 -->
         <label for="Username001">用户名</label>
         <!-- label通过唯一自选id绑定一个元素 -->
         <!-- 点击label or input均会聚焦在输入框内（双向绑定） -->
-        <input type="text" name="Username" id="Username001">
+        <input required type="text" name="Username" maxlength="10" minlength="3"
+               placeholder="长度范围：3-10个字符" id="Username001">
         <!-- input类用来输入 -->
 
         <br>
         <label for="age001">年龄</label>
-        <input type="number" name="age" id="age001">
+        <input type="number" name="age" placeholder="今天你几岁？真假均可" id="age001">
 
         <br>
         <label for="Email001">邮箱</label>
-        <input type="email" name="email" id="Email001">
+        <input required type="email" name="email" placeholder="这是必填项哦" id="Email001">
         <!-- 以上内容均可在css中实现 -->
 
         <br>
         <label for="Password001">密码</label>
-        <input type="password" name="password" id="Password001">
+        <input type="password" name="password" placeholder="哈哈不管啦随便吧" id="Password001">
+
+        <br>
+        <label for="cpp">cpp</label>
+        <input type="radio" name="lang" value="" id="cpp">
+        <!-- value部分随意写，js中均可调用此部分代码 -->
+        <br>
+        <label for="java">java</label>
+        <input type="radio" name="lang" id="java">
+        <!-- name相同就只能点选多个中的一个项目 -->
+        <br>
+        <label for="python">python</label>
+        <input type="radio" name="方言" id="python">
+
+        <label for="file1"></label>
+        <input type="file" name="文件" id="file1">
+
+        <br>
+        <label for="resume">输入代码</label>
+        <textarea name="resume" id="resume" rows="7" cols="30"></textarea>
+        <!-- 初始行数rows cols初始列数 -->
+
+        <section>
+
+        </section>
 
         <br>
         <button type="submit">提交</button>
