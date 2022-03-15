@@ -1,11 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="">
+<!-- 命名空间 -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>index测试</title>
+
 </head>
 <body>
     <h2>超链接</h2>
@@ -20,7 +22,7 @@
     <h2>Form</h2>
 
     <form action="推送失败.md">
-        <!-- 表单把数据提交给服务器，服务器处理后再返回表单 -->
+        <!-- 表单把数据提交给服务器，服务器处理后再返回表单（action提交表单的一个方法，函数） -->
         <!-- 表单 -->
         <label for="Username001">用户名</label>
         <!-- label通过唯一自选id绑定一个元素 -->
@@ -62,14 +64,59 @@
         <textarea name="resume" id="resume" rows="7" cols="30"></textarea>
         <!-- 初始行数rows cols初始列数 -->
 
-        <section>
-        
-        </section>
+        <br>
+        <label for="lang01">语言</label>
+        <select name="lang" id="lang01">
+            <option value="">请选择</option>
+            <!-- value不填且放第一项，则选择框默认为空 -->
+            <option selected value="Cpp">Cpp</option>
+            <!-- selected 默认选某项，未加selected即会默认选择第一项 -->
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+        </select>
 
         <br>
         <button type="submit">提交</button>
         <!-- button按下后会提交上面所有内容 -->
     </form>
+
+    <br>
+    <h2>List</h2>
+
+    <ul>
+        <!-- (ol ·,ul 1,2,3)列表，div的后代 -->
+        <li>
+            first item
+            <ul>
+                <li>
+                    二级列表
+                    <ul>
+                        <li>三级列表</li>
+                        <ul>
+                            <li>
+                                wuhu
+                            </li>
+                            <li>起飞</li>
+                            <li>ei,飞</li>
+                            <li>飞</li>
+                        </ul>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>second item</li>
+        <li>third item</li>
+    </ul>
+
+    <dl>
+        <dd>data？，不缩进</dd>
+        <dt>table 缩进</dt>
+        <dt>ceshi</dt>
+        <dd>data？，不缩进</dd>
+        <dd>
+            <a href="推送失败.md">连接测试 data？，不缩进</a>
+        </dd>
+    </dl>
 
 </body>
 </html>
