@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css选择器</title>
+
+    <style>
+        <!--
+        周期
+
+        -->
+        p:nth-child(3n-1) {
+            background: #ff0000;
+        }
+
+        <!--
+        使用公式
+
+        (
+        an + b
+
+        )
+        ，描述：表示周期的长度，n是计数器（从0开始），b是偏移值。在这里，我们指定了下标是3的倍数的所有p元素的背景色
+
+        -->
+        <!--
+        Odd 和 even 是可用于匹配下标是奇数或偶数
+
+        -->
+        <!--
+        css选择器 第几个
+
+        -->
+        h1:nth-child(1) {
+            background: blue
+        }
+
+        p:nth-child(6) {
+            background: #ff0000;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>这是标题</h1>
+    <p>第一个段落。</p>
+    <p>第二个段落。</p>
+    <p>第三个段落。</p>
+    <p>第四个段落。</p>
+    <p>第五个段落。</p>
+    <p>第六个段落。</p>
+    <p>第七个段落。</p>
+    <p>第八个段落。</p>
+    <p>第九个段落。</p>
+
+    <p><b>注释：</b>Internet Explorer 不支持 :nth-child() 选择器。</p>
+</body>
+</html>
