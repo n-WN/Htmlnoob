@@ -1,0 +1,115 @@
+@charset "utf-8";
+body {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #999;
+	background-color: #900;
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 20px;
+	background-color: #FFF;
+}
+p {
+	line-height: 1.5em;
+	text-indent: 2em;
+}
+h2 {
+	color: #900;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #900;
+	padding-bottom: 10px;
+}
+.mingchefenlei {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 50px;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #900;
+}
+h1 {
+	color: #900;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 0px;
+}
+#footer {
+	padding: 20px;
+	text-align: center;
+	background-color: #333;
+	margin-top: 20px;
+	color: #FFF;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+#meiguo {
+	width: 960px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	background-color: #FFF;
+}
+#deguo {
+	width: 960px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	background-color: #FFF;
+}
+#deguo  img {
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+}
+
+
+
+
+
+.informationofenglish {
+	color: #000;
+	font-size: 36px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+h3 {
+	color: #000;
+	text-align: center;
+}
+img {
+	border: 1px solid #CCC;
+	padding: 15px;
+}
+.picofp {
+	text-align: center;
+	text-indent: 0;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#zhongguo {
+	padding: 20px;
+	width: 960px;
+	background-color: #FFF;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#yidali {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #FFF;
+}
