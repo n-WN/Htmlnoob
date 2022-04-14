@@ -9,8 +9,7 @@ My first?
     小程序，
     周赛 ddl 周日；
     线代（宋浩）ddl 周三；
-    前端作业  css实现排序？
-    JAVA作业 找规律
+    
 }
 √ 收JAVA作业
 √ yxc语法课
