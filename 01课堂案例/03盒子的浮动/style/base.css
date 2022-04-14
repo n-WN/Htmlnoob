@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #407062;
+}
+
+body {
+    font-family: "宋体";
+    font-size: 15px;
+}
+
+#container {
+    width: 80%;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: #af8ccc;
+}
+
+p {
+    line-height: 2.5;
+    color: #fff;
+    margin-bottom: 50px;
+    text-indent: 2em;
+}
+
+p.dropCap {
+    text-indent: 0em;
+}
+
+p.dropCap:first-letter {
+    float: left;
+    font-size: 48px;
+    margin-top: -10px;
+    margin-right: 20px;
+    color: #ff0;
+    text-shadow: 3px 3px 3px #000;
+
+}
+
+p.dropCap1:first-letter {
+    float: left;
+    font-size: 48px;
+    margin-top: -10px;
+    margin-right: 20px;
+    color: #ff0;
+    text-shadow: 3px 3px 3px #000;
+
+}
+
+p.floatRightImg img {
+    float: right;
+    border: 1px solid darkgoldenrod;
+    padding: 15px;
+    background-color: #fff;
+    margin-left: 40px;
+    width: 155px;
+    height: 215px;
+}
+
+p.floatRightImg::after, p.floatLeftImg::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+p.floatLeftImg img {
+    float: left;
+    border: 1px solid #0bb895;
+    padding: 15px;
+    width: 155px;
+    height: 215px;
+    background-color: #fff;
+    margin-right: 40px;
+}
+
+
+.one {
+    background-color: #900;
+    color: #FFF;
+    padding: 10px;
+    font-size: 18px;
+
+
+}
+
+.two {
+    background-color: #006;
+    color: #FFF;
+    padding: 10px;
+    font-size: 18px;
+
+
+}
+
+.three {
+    background-color: #90F;
+    font-size: 18px;
+    color: #FFF;
+    padding: 10px;
+
+
+}
+
+p.floatCase {
+    background-color: deepskyblue;
+    padding: 10px;
+    color: #FFF;
+    line-height: 1.5em;
+    text-indent: 2em;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
